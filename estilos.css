@@ -1,0 +1,316 @@
+/*  import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Rubik:wght@300&display=swap');
+/*  import fonts */
+
+/*  Reseteador - prncipio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Reseteador - fin */
+
+body {
+    background-color: #fff;
+}
+
+/*  Seccion Family Fonts - principio */
+.letraFrankRuhlLibre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.letraRubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+/*  Seccion Family Fonts - fin */
+
+/*  Seccion Colores - principio */
+.backgroundColorAzul {
+    background-color: #fff;
+}
+
+.backgroundColorCeleste {
+    background-color: rgba(136, 211, 255, 0.493);
+}
+
+.letraColorAzul {
+    color: rgb(7, 7, 7);
+}
+
+.letraColorCeleste {
+    color: rgb(5, 5, 5);
+}
+
+/*  Seccion Colores - fin */
+
+/* Header - principio */
+.encabezado {
+    
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+}
+
+.logoSolo {
+    width: 100px;
+    margin: 4% auto;
+}
+
+.navegador ul {
+    list-style: none;
+}
+
+.navegador ul li {
+    border-right: 2px outset rgb(92, 195, 255);
+    padding-right: 1%;
+    font-size: 1.5em;
+}
+
+.navegador ul li a {
+    color: rgb(3, 3, 3);
+}
+
+.navegador ul li a:hover {
+    color: rgb(30, 104, 173);
+}
+/* Header - fin */
+
+main {
+    margin: 165px 0px 65px 0px;
+}
+/* Pagina Index - principio */
+.portadaoptica {
+    height: 800px;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+
+.colorFondo {
+    background-color: rgba(15, 121, 241, 0.452);
+    height: 300px;
+    width: 100%;
+}
+
+.contenedorportadaoptica {
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    flex-direction: column;
+}
+
+.contenedorportadaoptica h1 {
+    font-weight: 800;
+}
+
+.contenedorportadaoptica p {
+    margin: 2% 8% 4% 8%;
+    font-weight: 700;
+}
+
+.contenedorportadaoptica button {
+    font-size: 2em;
+}
+
+.servicios h2 {
+    padding: 2em;
+    font-size: 3em;
+    margin-bottom: 6%;
+    font-weight: 700;
+}
+
+.ContenedorServicios {
+    margin: 0% 2%;
+}
+
+.contenedorServiciosItem {
+    margin: 1%;
+    padding: 0%;
+}
+
+.contenedorServiciosItem div {
+    background-size: cover;
+    background-position: center;
+    height: 260px;
+}
+
+.contenedorServiciosItem1 div {
+    background-image: url();
+}
+
+.contenedorServiciosItem2 div {
+    background-image: url();
+}
+
+.contenedorServiciosItem3 div {
+    background-image: url();
+}
+
+.contenedorServiciosItem4 div {
+    background-image: url();
+}
+
+.contenedorServiciosItem1 div:hover,
+.contenedorServiciosItem2 div:hover,
+.contenedorServiciosItem3 div:hover,
+.contenedorServiciosItem4 div:hover {
+    width: 105%;
+    color: aquamarine;
+    box-shadow: 0px 0px 10px 5px rgba(0, 153, 255, 0.404);
+}
+
+
+.contenedorServiciosItem h3 {
+    background-color: rgba(15, 76, 207, 0.712);
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
+}
+/* Pagina Index - fin */
+
+/* Pagina Servicios - principio */
+.servicio {
+    margin-top: 4%;
+    border-bottom: 3px outset rgba(0, 0, 0, 0.377);
+    border-radius: 120px;
+    box-shadow: 0px 30px 25px 5px rgba(0, 0, 0, 0.26);
+}
+
+.contenedorServicio {
+    padding-bottom: 4%;
+}
+
+.servicio h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+
+}
+
+.servicio h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.servicio p {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.servicio1 {
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.servicioSeccionIzquierda img {
+    height: auto;
+    width: 95%;
+}
+
+.servicioSeccionIzquierda button {
+    background-color: rgb(219, 219, 219);
+    margin-top: 20%;
+    border: 2px groove rgba(0, 0, 0, 0.363);
+    font-size: 1.5em;
+}
+
+/* Pagina Servicios - fin */
+
+/* Pagina Contacto - principio */
+.formulario {
+    margin-bottom: 4%;
+}
+
+.formulario form {
+    padding: 4%;
+    border-radius: 1.7em;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.472);
+    border: 2px groove rgba(0, 0, 0, 0.459);
+}
+
+.formulario form .submit {
+    width: 60%;
+}
+
+/* Pagina Contacto - fin */
+
+/* Footer - principio */
+.contenedorCreditos {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.logoEntero {
+    width: 160px;
+}
+
+.faceIcon {
+    margin: 2% 8%;
+}
+
+.faceIcon,
+.instaIcon {
+    width: 70px;
+}
+
+.logoEntero {
+    width: 100px;
+}
+/* Footer - fin */
+
+@media only screen and (max-width: 767px) {
+    /* Pagina Index - principio */
+    .contenedorPortadaEstudioAbogados {
+        font-size: 1.5em;
+    }
+
+    .contenedorPortadaEstudioAbogados p {
+        margin: 2% 2% 4% 2%;
+    }
+    /* Pagina Index - fin */
+
+    /* Pagina Servicios - principio */
+    .servicios h2 {
+        padding: 1.5em;
+        font-size: 2.5em;
+        margin-bottom: 6%;
+        font-weight: 700;
+    }
+
+    .servicio {
+        border-radius: 90px;
+    }
+    
+
+    .servicioSeccionIzquierda {
+        margin-bottom: 8%;
+    }
+
+    .servicioSeccionIzquierda img {
+        width: 99%;
+    }
+
+    .servicio2 {
+        margin-top: 10%;
+    }
+
+    .contenedorServicio {
+        padding-bottom: 8%;
+    }
+    /* Pagina Servicios - fin */
+
+    .contenedorCreditos div {
+        margin: 20px auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .navegador ul li {
+        font-size: 1.25em;
+    }
+
+}
